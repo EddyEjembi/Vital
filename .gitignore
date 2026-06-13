@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+
+# Virtual environments
+.venv
+.cursor
+
+# Local runtime data
+data/*
+!data/.gitkeep
+
+# Environment variables
+.env
+
+# Others
+PLAN.md
+prd.md

@@ -1,0 +1,42 @@
+from vital_types.core import NotificationResult, SpeakResult, WeatherSnapshot
+from vital_types.llm import ChatMessage, LlmResponse, ToolCallRequest, ToolExecutionResult
+from vital_types.db import (
+    DailyLogEntry,
+    DailyLogSchemaField,
+    ExerciseLogEntry,
+    FoodLogEntry,
+    MealPlanEntry,
+    MedicationLogEntry,
+    MedicationRecord,
+    NotificationLogEntry,
+    PresenceConfig,
+    PresenceLogEntry,
+    ProfileInput,
+    ProfileRecord,
+    ScheduledJob,
+    WeeklyReport,
+)
+
+__all__ = [
+    "ChatMessage",
+    "LlmResponse",
+    "NotificationResult",
+    "ToolCallRequest",
+    "ToolExecutionResult",
+    "SpeakResult",
+    "WeatherSnapshot",
+    "DailyLogEntry",
+    "DailyLogSchemaField",
+    "ExerciseLogEntry",
+    "FoodLogEntry",
+    "MealPlanEntry",
+    "MedicationLogEntry",
+    "MedicationRecord",
+    "NotificationLogEntry",
+    "PresenceConfig",
+    "PresenceLogEntry",
+    "ProfileInput",
+    "ProfileRecord",
+    "ScheduledJob",
+    "WeeklyReport",
+]
