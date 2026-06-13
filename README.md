@@ -215,7 +215,7 @@ Contributions are welcome — issues, docs, tests, and pull requests.
    git clone https://github.com/YOUR_USERNAME/vital.git
    cd vital
    ```
-3. **Create a branch** from `main`:
+3. **Create a branch** from `master`:
    ```bash
    git checkout -b fix/short-description
    ```
@@ -224,7 +224,7 @@ Contributions are welcome — issues, docs, tests, and pull requests.
    uv run python -m pytest tests/ -q
    ```
 5. **Commit** with a clear message (what and why).
-6. **Push** and open a **Pull Request** against `eddyejembi/vital` → `main`.
+6. **Push** and open a **Pull Request** against `eddyejembi/vital` → `master`.
 7. Describe what you changed and how you tested it.
 
 ### Code guidelines
